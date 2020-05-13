@@ -4,3 +4,8 @@ framework module KQTUser {
   export *
   module * { export * }
 }
+
+module KQTUser.Swift {
+    header "KQTUser-Swift.h"
+    requires objc
+}

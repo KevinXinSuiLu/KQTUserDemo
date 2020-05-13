@@ -17,7 +17,7 @@
 		E890C3E1246BDD7F00712DAF /* KQTUser.h in Headers */ = {isa = PBXBuildFile; fileRef = E890C3DF246BDD7F00712DAF /* KQTUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E890C3E4246BDD7F00712DAF /* KQTUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E890C3DD246BDD7F00712DAF /* KQTUser.framework */; };
 		E890C3E5246BDD7F00712DAF /* KQTUser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E890C3DD246BDD7F00712DAF /* KQTUser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E890C3EA246BDE1500712DAF /* KQTTest.swift in Headers */ = {isa = PBXBuildFile; fileRef = E890C3D4246BD92A00712DAF /* KQTTest.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E890C3F2246C0CC400712DAF /* KQTTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E890C3D4246BD92A00712DAF /* KQTTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,7 +128,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E890C3E1246BDD7F00712DAF /* KQTUser.h in Headers */,
-				E890C3EA246BDE1500712DAF /* KQTTest.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E890C3F2246C0CC400712DAF /* KQTTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
