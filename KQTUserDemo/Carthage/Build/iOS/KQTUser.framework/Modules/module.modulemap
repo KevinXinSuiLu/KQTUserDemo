@@ -1,0 +1,6 @@
+framework module KQTUser {
+  umbrella header "KQTUser.h"
+
+  export *
+  module * { export * }
+}
