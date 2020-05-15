@@ -12,12 +12,15 @@
 		E890C3C8246BD86100712DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E890C3C6246BD86100712DAF /* Main.storyboard */; };
 		E890C3CA246BD86200712DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E890C3C9246BD86200712DAF /* Assets.xcassets */; };
 		E890C3CD246BD86200712DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E890C3CB246BD86200712DAF /* LaunchScreen.storyboard */; };
-		E890C3D5246BD92A00712DAF /* KQTTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E890C3D4246BD92A00712DAF /* KQTTest.swift */; };
-		E890C3D7246BDA0B00712DAF /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E890C3D6246BDA0B00712DAF /* images.bundle */; };
+		E890C3D7246BDA0B00712DAF /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E890C3D6246BDA0B00712DAF /* Resource.bundle */; };
 		E890C3E1246BDD7F00712DAF /* KQTUser.h in Headers */ = {isa = PBXBuildFile; fileRef = E890C3DF246BDD7F00712DAF /* KQTUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E890C3E4246BDD7F00712DAF /* KQTUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E890C3DD246BDD7F00712DAF /* KQTUser.framework */; };
 		E890C3E5246BDD7F00712DAF /* KQTUser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E890C3DD246BDD7F00712DAF /* KQTUser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E890C3F2246C0CC400712DAF /* KQTTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E890C3D4246BD92A00712DAF /* KQTTest.swift */; };
+		E8F9367C246E3A3A0053BF09 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E890C3D6246BDA0B00712DAF /* Resource.bundle */; };
+		E8F9367F246E41A50053BF09 /* KQTTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9367E246E41A50053BF09 /* KQTTest.swift */; };
+		E8F93682246E4ABC0053BF09 /* KQTDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F93680246E4ABC0053BF09 /* KQTDemo.swift */; };
+		E8F93683246E4ABC0053BF09 /* KQTDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F93680246E4ABC0053BF09 /* KQTDemo.swift */; };
+		E8F93686246E4CF10053BF09 /* KQTTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F9367E246E41A50053BF09 /* KQTTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +55,12 @@
 		E890C3C9246BD86200712DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E890C3CC246BD86200712DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E890C3CE246BD86200712DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E890C3D4246BD92A00712DAF /* KQTTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KQTTest.swift; sourceTree = "<group>"; };
-		E890C3D6246BDA0B00712DAF /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
+		E890C3D6246BDA0B00712DAF /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
 		E890C3DD246BDD7F00712DAF /* KQTUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KQTUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E890C3DF246BDD7F00712DAF /* KQTUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KQTUser.h; sourceTree = "<group>"; };
 		E890C3E0246BDD7F00712DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F9367E246E41A50053BF09 /* KQTTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KQTTest.swift; sourceTree = "<group>"; };
+		E8F93680246E4ABC0053BF09 /* KQTDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KQTDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,7 @@
 			children = (
 				E890C3C2246BD86100712DAF /* AppDelegate.swift */,
 				E890C3C4246BD86100712DAF /* ViewController.swift */,
-				E890C3D4246BD92A00712DAF /* KQTTest.swift */,
-				E890C3D6246BDA0B00712DAF /* images.bundle */,
+				E8F9367D246E41A50053BF09 /* KQTUserKit */,
 				E890C3C6246BD86100712DAF /* Main.storyboard */,
 				E890C3C9246BD86200712DAF /* Assets.xcassets */,
 				E890C3CB246BD86200712DAF /* LaunchScreen.storyboard */,
@@ -118,6 +121,16 @@
 				E890C3E0246BDD7F00712DAF /* Info.plist */,
 			);
 			path = KQTUser;
+			sourceTree = "<group>";
+		};
+		E8F9367D246E41A50053BF09 /* KQTUserKit */ = {
+			isa = PBXGroup;
+			children = (
+				E8F9367E246E41A50053BF09 /* KQTTest.swift */,
+				E8F93680246E4ABC0053BF09 /* KQTDemo.swift */,
+				E890C3D6246BDA0B00712DAF /* Resource.bundle */,
+			);
+			path = KQTUserKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +199,7 @@
 					};
 					E890C3DC246BDD7F00712DAF = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -216,7 +230,7 @@
 				E890C3CD246BD86200712DAF /* LaunchScreen.storyboard in Resources */,
 				E890C3CA246BD86200712DAF /* Assets.xcassets in Resources */,
 				E890C3C8246BD86100712DAF /* Main.storyboard in Resources */,
-				E890C3D7246BDA0B00712DAF /* images.bundle in Resources */,
+				E890C3D7246BDA0B00712DAF /* Resource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F9367C246E3A3A0053BF09 /* Resource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E890C3C5246BD86100712DAF /* ViewController.swift in Sources */,
-				E890C3D5246BD92A00712DAF /* KQTTest.swift in Sources */,
+				E8F93682246E4ABC0053BF09 /* KQTDemo.swift in Sources */,
+				E8F9367F246E41A50053BF09 /* KQTTest.swift in Sources */,
 				E890C3C3246BD86100712DAF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E890C3F2246C0CC400712DAF /* KQTTest.swift in Sources */,
+				E8F93686246E4CF10053BF09 /* KQTTest.swift in Sources */,
+				E8F93683246E4ABC0053BF09 /* KQTDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +452,7 @@
 		E890C3E7246BDD7F00712DAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -444,6 +462,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = KQTUser/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,6 +471,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cn.kanqi.KQTUser;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -462,6 +483,7 @@
 		E890C3E8246BDD7F00712DAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -471,6 +493,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = KQTUser/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,6 +502,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cn.kanqi.KQTUser;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

@@ -15,6 +15,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         KQTTest().test()
         
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            
+            
+            let vc = KQTTest.createVC()
+                    
+            
+            self.present(vc, animated: true, completion: nil)
+        }
+
     }
 
 

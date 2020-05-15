@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "40f3ee4465300da696625042a845656f2ff8a329",
+  "iOS" : [
+    {
+      "name" : "KQTUser",
+      "hash" : "2b57f6737c2d76c664c1e814a3afbd70b642ba4c480ae456cb6e7cdaa042cd2d",
+      "swiftToolchainVersion" : "5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+    }
+  ]
+}
